@@ -30,8 +30,8 @@ group :test do
     gem 'actionmailer', :github => 'rails/rails'
     gem 'activerecord', :github => 'rails/rails'
   else
-    gem 'actionmailer', (ENV['RAILS_VERSION'] || ['>= 3.0', '< 5.2'])
-    gem 'activerecord', (ENV['RAILS_VERSION'] || ['>= 3.0', '< 5.2'])
+    gem 'actionmailer', (ENV['RAILS_VERSION'] || ['>= 3.0', '< 5.3'])
+    gem 'activerecord', (ENV['RAILS_VERSION'] || ['>= 3.0', '< 5.3'])
   end
 
   gem 'coveralls', :require => false
